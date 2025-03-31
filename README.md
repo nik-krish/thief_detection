@@ -31,11 +31,11 @@ The **Thief Detection System** is a facial recognition application built using *
 ```bash
 thief_detection/
 │
-├── backend/
+├── server/
 │   ├── server.py           # Flask backend server
 │   ├── dataset/            # Stores training images of thieves
 │
-├── frontend/
+├── client/
 │   ├── src/
 │   │   ├── App.js          # Main React App
 │   │   ├── components/     # Header, MainContent, Footer, AddThiefModal
@@ -71,13 +71,9 @@ cd thief_detection
 
 1. Navigate to the backend folder:
     ```bash
-    cd backend
+    cd server
     ```
-2. Install Python dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Start the backend server:
+2. Start the backend server:
     ```bash
     python server.py
     ```
@@ -86,7 +82,7 @@ cd thief_detection
 
 1. Navigate to the frontend folder:
     ```bash
-    cd ../frontend
+    cd ../client
     ```
 2. Install Node.js dependencies:
     ```bash
